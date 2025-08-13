@@ -103,10 +103,10 @@ export const translations: Record<string, Translation> = {
     gettingStarted: {
       title: "Getting Started",
       configureDataModel: "1. Create a data model",
-      configurePaths: "2. Crie um modelo que herde de Codable, e 'UNA' a sua classe de modelo",
-      defineModels: "3. Agora voce precisa criar 3 clases, sao elas a PersistenceController, CoreDataConfiguration e uma extensao de CDManagedObjectProtocol.",
-      createRequest: "4. Com tudo configurado agora podemos criar nossa classe que faz a magica",
-      swiftuiIntegration: "5. Agora use assim na sua ViewModel",
+      configurePaths: "2. Create a model that inherits from Codable, and 'UNION' your model class",
+      defineModels: "3. Now you need to create 3 classes, they are PersistenceController, CoreDataConfiguration and an extension of CDManagedObjectProtocol.",
+      createRequest: "4. With everything set up we can now create our class that does the magic",
+      swiftuiIntegration: "5. Now use it like this in your ViewModel",
     },
     installation: {
       title: "Installation",

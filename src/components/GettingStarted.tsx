@@ -156,7 +156,7 @@ class UserCoreData: CDManagedObjectProtocol, @unchecked Sendable {
               {translation.gettingStarted.configureDataModel}
             </h3>
             <p className="text-muted-foreground mb-6">
-              Crie um modelo de CoreData com a seguinte estrutura
+             Create a CoreData model with the following structure
             </p>
             <CodeBlock code={configureUrlCode} />
           </div>
@@ -191,8 +191,7 @@ class UserCoreData: CDManagedObjectProtocol, @unchecked Sendable {
               {translation.gettingStarted.swiftuiIntegration}
             </h3>
             <p className="text-muted-foreground mb-6">
-              Voce consegue tambem gerenciar para ter somente um dado no CoreData, para isso basta usar o protocolo CDManagedObjectProtocolao inves de CDManagedGroupObjectProtocol
-            </p>
+You can also manage to have only one data in CoreData, for this just use the CDManagedObjectProtocol instead of CDManagedGroupObjectProtocol            </p>
             <CodeBlock code={swiftuiCode} />
             <p className="text-sm text-muted-foreground mt-2">
               Closures are also supported.
